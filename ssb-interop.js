@@ -118,8 +118,10 @@ document.addEventListener("DOMContentLoaded", function() {
 }
 
 body {
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
+    /* font-family: 'Lato', sans-serif !important; */
     /* src: url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i'); */
+    src: url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
     text-rendering: optimizeLegibility important;
     word-spacing: -1px;
 }
@@ -127,7 +129,7 @@ div.c-message.c-message--light.c-message--hover {
     color: grey !important;
 }
 .c-message__sender a {
-    font-weight: 600;
+    font-weight: 500;
     text-transform: capitalize;
     color: white !important;
     font-size: 15px !important;
@@ -250,7 +252,7 @@ ts-message .mention {
 .c-member_slug--link {
     background: none !important;
     color: #ffce8e!important;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     border: none !important;
    }
 .menu_content a {
@@ -1080,7 +1082,7 @@ color:#a4d677 !important
                     .sli_briefing_preview_container::after, .sli_briefing_preview_container::before{background:#222222; border:1px solid #737373;}
                     .sli_briefing_preview__description_text{color:white;}
                     .sli_briefing_preview__description_text b {
-                        color: #2dffd1;    font-weight: 600;}
+                        color: #2dffd1;    font-weight: 500;}
                         .sli_briefing__message ts-message:not(.for_mention_display):not(.for_search_display):not(.for_top_results_search_display):not(.for_star_display){
                             background-color: #313131;
                             border: 1px solid #000;

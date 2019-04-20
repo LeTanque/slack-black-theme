@@ -1,6 +1,6 @@
 #!/bin/bash
 MYPWD=${PWD}
-curl -o tmp_ssb-interop.js https://raw.githubusercontent.com/caiceA/slack-black-theme/master/ssb-interop.js
+curl -o tmp_ssb-interop.js https://raw.githubusercontent.com/LeTanque/slack-black-theme/master/ssb-interop.js
 sed "s/background: linear-gradient(0deg,#192a38,hsla(0,0%,100%,0) 40px) !important;/background: linear-gradient(0deg,#363636,hsla(0,0%,100%,0) 40px) !important;/g" tmp_ssb-interop.js >> ssb-interop
 mv ssb-interop tmp_ssb-interop.js
 sed '/.c-dialog__footer .c-button/i \
